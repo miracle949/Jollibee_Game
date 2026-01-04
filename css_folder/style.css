@@ -11,6 +11,7 @@
 .body {
     height: 100vh;
     background-image: url('../images/jollibeeBg2.jpg');
+    /* background-image: url('../images/orderBg.jpg'); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -30,14 +31,16 @@ main .start-button {
     right: 20rem;
     top: 25rem;
     padding: 13px 40px;
-    background-color: #ffb82e;
+    background: linear-gradient(to bottom, #f5c542, #d99b12);
     color: white;
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 28px;
     border: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    box-shadow:
+        inset 0 -4px 0 rgba(0, 0, 0, 0.25),
+        0 6px 10px rgba(0, 0, 0, 0.3);
     font-size: 23px;
     cursor: pointer;
     display: block;
@@ -95,14 +98,17 @@ main .mechanics .text-mechanics .mechanics-button{
 
 main .mechanics .text-mechanics .play-button{
     padding: 13px 40px;
-    background-color: #ffb82e;
-    color: black;
+    background: linear-gradient(to bottom, #f5c542, #d99b12);
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
     border-radius: 28px;
     border: none;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    box-shadow:
+        inset 0 -4px 0 rgba(0, 0, 0, 0.25),
+        0 6px 10px rgba(0, 0, 0, 0.3);
+    font-size: 23px;
     font-size: 23px;
     cursor: pointer;
 }
@@ -176,4 +182,58 @@ main .cashier .prepare-order{
 
 main .cashier .prepare-order:hover{
     text-decoration: underline;
+}
+
+/* 4th flow */
+
+main .menu{
+    width: 100%;
+    height: 100%;
+    background-color: #f5c542;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    display: none;
+}
+
+main .menu .food-menu{
+    width: 430px;
+    height: 210px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .menu .food-menu .jollibee-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+main .menu .food-menu .jollibee-menu img{
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+}
+
+/* main .menu .food-menu .jollibee-menu .jollibee-image{
+    width: 110px;
+    height: 110px;
+    border: 1px solid black;
+} */
+
+main .menu .food-menu .jollibee-menu p{
+    font-weight: 600;
+}
+
+main .title-order{
+    background-color: #6D4140;
+    padding: 0.8rem;
+    color: white;
+    text-transform: uppercase;
+    display: none;
 }
