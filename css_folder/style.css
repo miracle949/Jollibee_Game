@@ -11,7 +11,7 @@
 .body {
     height: 100vh;
     background-image: url('../images/jollibeeBg2.jpg');
-    /* background-image: url('../images/orderBg.jpg'); */
+    /* background-image: url('../images/orderBg2.jpg'); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,6 +24,7 @@
 
 main {
     position: relative;
+    
 }
 
 main .start-button {
@@ -190,16 +191,18 @@ main .menu{
     width: 100%;
     height: 100%;
     background-color: #f5c542;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    display: none;
+    /* display: flex; */
 }
 
 main .menu .food-menu{
-    width: 430px;
-    height: 210px;
+    width: 100%;
+    padding: 1.5rem;
+    /* width: 430px; */
+    /* height: 210px; */
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -236,4 +239,177 @@ main .title-order{
     color: white;
     text-transform: uppercase;
     display: none;
+    z-index: -1;
 }
+
+/* bucket chicken questions */
+
+main .question-bucket-chicken{
+    position: absolute;
+    width: 590px;
+    /* height: 400px; */
+    background-color: white;
+    top: 113%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    border: 10px solid #f5c542;
+    padding: 3rem;
+    display: none;
+    z-index: 999;
+}
+
+main .question-bucket-chicken h4{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+main .question-bucket-chicken p{
+    margin-top: 4rem;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 40px;
+}
+
+main .question-bucket-chicken .group-answers{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+main .question-bucket-chicken .group-answers button{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    background-color: #ff0000;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+main .question-bucket-chicken .start-answer-group{
+    position: absolute;
+    left: -26.5%;
+    top: 20%;
+}
+
+main .question-bucket-chicken .start-answer-group button{
+    padding: 10px 1.5rem;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main .question-bucket-chicken .exit-button{
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}
+
+main .question-bucket-chicken .exit-button button{
+    font-size: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Fries */
+
+main .question-fries{
+    position: absolute;
+    width: 590px;
+    /* height: 400px; */
+    background-color: white;
+    top: 113%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    border: 10px solid #f5c542;
+    padding: 3rem;
+    display: none;
+    z-index: 999;
+}
+
+main .question-fries h4{
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+main .question-fries p{
+    margin-top: 4rem;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    line-height: 40px;
+}
+
+main .question-fries .group-answers{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+main .question-fries .group-answers button{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    background-color: #ff0000;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+main .question-fries .start-answer-group2{
+    position: absolute;
+    left: -26.5%;
+    top: 20%;
+}
+
+main .question-fries .start-answer-group2 button{
+    padding: 10px 1.5rem;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+main .question-fries .exit-button2{
+    position: absolute;
+    right: 25px;
+    top: 10px;
+}
+
+main .question-fries .exit-button2 button{
+    font-size: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+

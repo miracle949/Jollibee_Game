@@ -56,13 +56,13 @@
         <div class="menu">
             <div class="food-menu food-menu1">
                 <div class="jollibee-menu">
-                    <img src="images/bucketChicken.png" alt="">
+                    <img class="bucketChicken" src="images/bucketChicken.png" alt="">
                     <h4>Chicken Joy</h4>
                     <p>₱ 99.00</p>
                 </div>
 
                 <div class="jollibee-menu">
-                    <img src="images/Fries.png" alt="">
+                    <img class="Fries" src="images/Fries.png" alt="">
                     <h4>Fries</h4>
                     <p>₱ 50.00</p>
                 </div>
@@ -70,13 +70,13 @@
 
             <div class="food-menu food-menu2">
                 <div class="jollibee-menu">
-                    <img src="images/cokeFloat.png" alt="">
+                    <img class="cokeFloat" src="images/cokeFloat.png" alt="">
                     <h4>Coke Float</h4>
                     <p>₱ 40.00</p>
                 </div>
 
                 <div class="jollibee-menu">
-                    <img src="images/burgerFries.png" alt="">
+                    <img class="burgerFries" src="images/burgerFries.png" alt="">
                     <h4>Burger w/Fries</h4>
                     <p>₱ 79.00</p>
                 </div>
@@ -84,13 +84,13 @@
 
             <div class="food-menu food-menu3">
                 <div class="jollibee-menu">
-                    <img src="images/Spag.png" alt="">
+                    <img class="Spag" src="images/Spag.png" alt="">
                     <h4>Spaghetti</h4>
                     <p>₱ 62.00</p>
                 </div>
 
                 <div class="jollibee-menu">
-                    <img src="images/Peach.png" alt="">
+                    <img class="Peach" src="images/Peach.png" alt="">
                     <h4>Peach Mango Pie</h4>
                     <p>₱ 39.00</p>
                 </div>
@@ -100,7 +100,49 @@
             <h2>Orders</h2>
         </div>
 
-        <audio id="audio" src="audio/jollibee_audio.mp3" autoplay></audio>
+        <div class="question-bucket-chicken">
+            <div class="start-answer-group">
+                <button id="timer" class="start-answer">Start</button>
+            </div>
+
+            <div class="exit-button">
+                <button class="exit">&times;</button>
+            </div>
+
+            <h4>"Customer ordered a Chickenjoy Before serving, answer this question correctly."</h4>
+
+            <p><b>Question:</b> What is the main ingredient of Chickenjoy?</p>
+
+            <div class="group-answers">
+                <button class="wrong1">wrong</button>
+                <button class="wrong2">wrong</button>
+                <button class="correct">correct</button>
+                <button class="wrong3">wrong</button>
+            </div>
+        </div>
+
+        <div class="question-fries">
+            <div class="start-answer-group2">
+                <button id="timer2" class="start-answer2">Start</button>
+            </div>
+
+            <div class="exit-button2">
+                <button class="exit2">&times;</button>
+            </div>
+
+            <h4>"Customer ordered a Chickenjoy Before serving, answer this question correctly."</h4>
+
+            <p><b>Question:</b> What is the main ingredient of Fries?</p>
+
+            <div class="group-answers">
+                <button class="wrong1">wrong</button>
+                <button class="wrong2">wrong</button>
+                <button class="wrong3">wrong</button>
+                <button class="correct">correct</button>
+            </div>
+        </div>
+
+        <audio id="audio" src="audio/jollibee_audio.mp3" autoplay loop></audio>
 
     </main>
 
