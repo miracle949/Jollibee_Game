@@ -249,7 +249,7 @@ main .question-bucket-chicken{
     width: 590px;
     /* height: 400px; */
     background-color: white;
-    top: 113%;
+    top: 110%;
     left: 52%;
     transform: translate(-50%,-50%);
     border: 10px solid #f5c542;
@@ -443,7 +443,7 @@ main .question-cokefloat p{
     line-height: 40px;
 }
 
-main .question-cokefloat .group-answers3{
+main .question-cokefloat .group-answers{
     margin-top: 3rem;
     display: flex;
     justify-content: center;
@@ -452,7 +452,7 @@ main .question-cokefloat .group-answers3{
     gap: 3rem;
 }
 
-main .question-cokefloat .group-answers3 button{
+main .question-cokefloat .group-answers button{
     width: 40%;
     padding: 15px 0;
     font-size: 20px;
@@ -528,7 +528,7 @@ main .question-burgerFries p{
     line-height: 40px;
 }
 
-main .question-burgerFries .group-answers4{
+main .question-burgerFries .group-answers{
     margin-top: 3rem;
     display: flex;
     justify-content: center;
@@ -537,7 +537,7 @@ main .question-burgerFries .group-answers4{
     gap: 3rem;
 }
 
-main .question-burgerFries .group-answers4 button{
+main .question-burgerFries .group-answers button{
     width: 40%;
     padding: 15px 0;
     font-size: 20px;
@@ -613,7 +613,7 @@ main .question-spaghetti p{
     line-height: 40px;
 }
 
-main .question-spaghetti .group-answers5{
+main .question-spaghetti .group-answers{
     margin-top: 3rem;
     display: flex;
     justify-content: center;
@@ -622,7 +622,7 @@ main .question-spaghetti .group-answers5{
     gap: 3rem;
 }
 
-main .question-spaghetti .group-answers5 button{
+main .question-spaghetti .group-answers button{
     width: 40%;
     padding: 15px 0;
     font-size: 20px;
@@ -698,7 +698,7 @@ main .question-peach-mango p{
     line-height: 40px;
 }
 
-main .question-peach-mango .group-answers6{
+main .question-peach-mango .group-answers{
     margin-top: 3rem;
     display: flex;
     justify-content: center;
@@ -707,7 +707,7 @@ main .question-peach-mango .group-answers6{
     gap: 3rem;
 }
 
-main .question-peach-mango .group-answers6 button{
+main .question-peach-mango .group-answers button{
     width: 40%;
     padding: 15px 0;
     font-size: 20px;
