@@ -166,7 +166,7 @@ function startTimer6(duration, onFinish) {
 
 start_button.addEventListener("click", () => {
 
-    document.getElementById("audio").play();
+    // document.getElementById("audio").play();
 
     body.style.backgroundImage = "none";
     body.style.backgroundColor = "#ff0000";
